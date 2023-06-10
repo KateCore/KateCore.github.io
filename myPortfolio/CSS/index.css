@@ -1,0 +1,47 @@
+﻿/*import custom font*/
+@font-face {
+    font-family: "Proggy Clean";
+    src: url(../CSS/proggyclean.ttf);
+}
+html,
+body {
+    background-color: black;
+    height: auto;
+    font-family: Proggy Clean;
+
+}
+
+
+.siteBody {
+    text-align: left;
+    color: #0d8e3b;
+    margin-top: 12%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.siteBody h1{
+    font-size: 60px;
+}
+
+
+.floatContainer{
+    padding: 20px;
+    width: 100%;
+    margin-left: 5%;
+    margin-right: 5%;
+    
+
+}
+.floatChild{
+    width: 40%;
+    float: left;
+    padding: 20px;
+    
+    
+}
+.indexSummary{
+    font-size: 50px;
+}
+
+

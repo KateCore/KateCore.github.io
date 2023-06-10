@@ -1,0 +1,56 @@
+﻿/*import custom font*/
+/* @font-face {
+    font-family: "Proggy Clean";
+    src: url(../CSS/proggyclean.ttf);
+} */
+.navHeader {
+    background-color: #0d8e3b;
+    color: black;
+    text-align: left;
+    margin-top: 0px;
+    /*font-family: Proggy Clean;*/
+    position: fixed;
+    top: 0;
+    left: 0%;
+    width: 100%;
+    display: block;
+    height: 80px;
+    overflow: auto;
+    padding-top: 50px;
+    
+   
+}
+.navHeader::-webkit-scrollbar {
+    display: none;
+  }
+.navHeader header{
+    margin-top: 0px;
+    height: 100px;
+    display: inline;
+    overflow: auto;
+    text-align: center;
+}
+.navHeader h1{
+    color: black;
+    text-decoration: none;
+    border-right: solid 2px;
+    height: 78px;
+    display: inline;
+    padding: 40px;
+    overflow: auto;
+    text-align: center;
+    
+}
+.navHeader a{
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+    border-right: solid 2px;
+    height: 78px;
+    display: inline;
+    padding: 50px;
+    overflow: auto;
+    text-align: center;
+    
+
+}
